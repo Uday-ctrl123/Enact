@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ENACT - Legal Assistant Platform
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -227,3 +228,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For support, email support@enact-legal.com or create an issue in this repository.
+=======
+# Enact
+>>>>>>> 83ae1b88c432808be8f96f4a0b399f99b88e0139
