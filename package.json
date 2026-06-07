@@ -55,7 +55,7 @@
     "@radix-ui/react-toggle-group": "^1.1.10",
     "@radix-ui/react-tooltip": "^1.2.7",
     "@react-three/drei": "^9.115.0",
-    "@react-three/fiber": "^8.17.10",
+    "@react-three/fiber": "^9.6.1",
     "@rive-app/react-canvas": "^4.28.0",
     "@sentry/react": "^10.22.0",
     "@supabase/supabase-js": "^2.103.0",
