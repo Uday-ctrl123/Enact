@@ -1,13 +1,13 @@
-# ⚖️ ENACT Legal Assistant (Pichaku)
+# ⚖️ ENACT Legal Assistant
 
-An intelligent, real-time Legal Assistant built for Indian Law (BNS, BSA, and BNSS 2023). This application leverages bleeding-edge generative AI models via Groq to provide immediate, compliant legal guidance natively in the browser.
+An intelligent, real-time Legal Assistant platform built for Indian Law (BNS, BSA, and BNSS 2023). This application leverages generative AI models to provide immediate, compliant legal guidance natively in the browser.
 
 ## 🚀 Features
-- **Lightning Fast AI**: Powered by Groq's LPUs running LLaMA 3.3 for near-instant streaming responses and eliminating token/rate limits.
+- **Lightning Fast AI**: Powered by Groq's LPUs running LLaMA 3.3 for near-instant streaming responses.
 - **Robust Legal Knowledge**: Hardcoded context specifically focusing on India's new criminal codes (Bharatiya Nyaya Sanhita, Bharatiya Sakshya Adhiniyam, and Bharatiya Nagarik Suraksha Sanhita).
 - **Secure Authentication**: Passwordless & OAuth options managed seamlessly through Supabase.
 - **Persistent Chat History**: All conversations are synced securely to a PostgreSQL database via Supabase.
-- **Dynamic Fallbacks**: Engineered to route traffic cleanly through multiple AI providers (Groq, Gemini, OpenRouter) to ensure 100% uptime regardless of provider rate limits.
+- **Dynamic Fallbacks**: Engineered to route traffic cleanly through multiple AI providers (Groq, Gemini, OpenRouter) to ensure high availability.
 - **Responsive & Modern UI**: Built with React, TailwindCSS, and shadcn/ui for a premium user experience across all devices.
 
 ## 🛠️ Tech Stack
@@ -32,7 +32,7 @@ An intelligent, real-time Legal Assistant built for Indian Law (BNS, BSA, and BN
    ```
 
 2. **Configure Environment Variables:**
-   Rename `.env.example` to `.env` and fill in the following credentials:
+   Rename `.env.example` to `.env` and fill in the credentials:
    ```env
    VITE_SUPABASE_PROJECT_ID=your_project_id
    VITE_SUPABASE_PUBLISHABLE_KEY=your_publishable_key
@@ -51,4 +51,5 @@ An intelligent, real-time Legal Assistant built for Indian Law (BNS, BSA, and BN
 
 ## 🔒 Security
 - Strict API Key bundling protections included in `src/lib/env.ts`.
-- All requests communicate securely over HTTPS/SSE bypassing standard client restrictions.
+- All requests communicate securely over HTTPS/SSE.
+
