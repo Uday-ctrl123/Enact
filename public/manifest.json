@@ -1,0 +1,47 @@
+{
+  "name": "ENACT Legal Assistant",
+  "short_name": "ENACT",
+  "description": "Empowering Navigation through Accessible Civic Tools - Your AI-powered legal assistant for Indian law",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["legal", "education", "utilities"],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Start Chat",
+      "short_name": "Chat",
+      "description": "Start a new legal consultation",
+      "url": "/chat",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Track Case",
+      "short_name": "Track",
+      "description": "Track your case status",
+      "url": "/case-tracking",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [],
+  "related_applications": [],
+  "iarc_rating_id": ""
+}
